@@ -1,0 +1,70 @@
+.product-showcase{
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+    background-size: cover;
+    background-position: right top;
+}
+
+.showcase-wrapper{
+    min-height: 70%;
+}
+
+.showcase-ui{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.showcase-mockup-1{
+    transform: translate(-160%, 25%);
+    z-index: 98;
+}
+
+.showcase-mockup-2{
+    transform: translate(-105%, 15%);
+    z-index: 99;
+}
+
+.showcase-mockup-3{
+    transform: translate(-50%, 11%);
+    z-index: 100;
+}
+
+.showcase-mockup-4{
+    transform: translate(5%, 15%);
+    z-index: 99;
+}
+
+.showcase-mockup-5{
+    transform: translate(60%, 25%);
+    z-index: 98;
+}
+
+@media all and (max-width: 1279px){
+    .product-showcase{
+        height: 620px;
+    }
+
+    .showcase-ui{
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 767px){
+    .product-showcase{
+        height: 450px;
+        background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg-mobile.png);
+    }
+
+    .showcase-ui{
+        width: 170px;
+    }
+}
+
+.size{
+    width: auto;
+    height: 950px;
+}
