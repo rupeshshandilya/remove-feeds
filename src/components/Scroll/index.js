@@ -4,25 +4,25 @@ import "./scroll.css"
 
 const scrollData= [
     {
-        heading:"Youtube is extremed.",
+        heading:"Opearate a distraction free Youtube.",
         description:"work pending",
         mobile_img:"images/user.png",
     },
 
     {
-      heading:"Youtube is extremed.",
+      heading:"Opearate a distraction free Youtube.",
       description:"work pending",
         mobile_img:"images/work-1.png",
     },
 
     {
-      heading:"Youtube is extremed.",
+      heading:"Opearate a distraction free Youtube.",
       description:"work pending",
         mobile_img:"images/work-2.png",
     },
 
     {
-      heading:"Youtube is extremed.",
+      heading:"Opearate a distraction free Youtube.",
       description:"work pending",
         mobile_img:"images/work-3.png",
     },

@@ -13,7 +13,11 @@ const TopSection = () => {
         </div>
         {/* Change the Href from youtube to app file destination */}
         <a href="#">
-        <Button buttonText="Download App"/>
+        <Button buttonText="Join the waitlist"/>
+        </a>
+
+        <a href="#" id="second">
+        <Button buttonText="Enter Email Address"/>
         </a>
     </div>
   </div>

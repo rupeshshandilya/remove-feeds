@@ -19,8 +19,11 @@
     line-height: 38px;
 }
 
+
+
 a{
     text-decoration: none;
+    margin-top: 20px;
 }
 
 @media all and (max-width: 1279px){
@@ -51,5 +54,10 @@ a{
         font-size: 16px;
         line-height: 22px;
         margin: 35px 0px;
+    }
+
+    a{
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
